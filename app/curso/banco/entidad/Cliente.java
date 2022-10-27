@@ -27,14 +27,15 @@ public class Cliente extends Personas {
 	//funcion agregar dinero
 	public float agregarDinero(float agregarDinero) {
 		this.totalDinero += agregarDinero;
-		System.out.println("se agrego:" + agregarDinero );
+		System.out.println("se agrego:" + agregarDinero + "€");
 		return this.totalDinero;
 	}
 	
 	//funcion retirar dinero
 	public float retirarDinero(float dinero) {
-		if(this.totalDinero - dinero > 0 ) {
-		this.totalDinero -= dinero;
+		this.retirarDinero = dinero;
+		if(this.totalDinero - this.retirarDinero > 0 ) {
+		this.totalDinero -= this.retirarDinero;
 		System.out.println("se retiro:" + retirarDinero );
 		}else {
 			System.out.println("dinero insuficeite" );
