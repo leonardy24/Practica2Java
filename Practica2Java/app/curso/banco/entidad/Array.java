@@ -9,8 +9,7 @@ public class Array {
 		// TODO Auto-generated method stub
 
 	
-		
-
+		///hola
 		//colecciones
 		
 		//ArrayLIST ->

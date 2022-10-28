@@ -2,7 +2,7 @@ package app.curso.banco.entidad;
 
 import java.util.HashMap;
 
-public class Cliente extends Personas {
+public class 	Cliente extends Personas {
 
 	
 	private float totalDinero;

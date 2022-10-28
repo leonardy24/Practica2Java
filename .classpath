@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Practica2Java/|HelloWord/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="HelloWord/src"/>
+	<classpathentry kind="src" path="Practica2Java"/>
+	<classpathentry kind="output" path="HelloWord/bin"/>
+</classpath>

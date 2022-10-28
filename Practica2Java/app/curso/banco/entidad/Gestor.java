@@ -1,6 +1,8 @@
 package app.curso.banco.entidad;
 
 public class Gestor extends Personas {
+	
+	
 
 	protected int idOficina1;
 	
@@ -17,6 +19,10 @@ public class Gestor extends Personas {
 	
 	}
 
+	
+	
+	
+	
 	public int getIdOficina1() {
 		return idOficina1;
 	}
