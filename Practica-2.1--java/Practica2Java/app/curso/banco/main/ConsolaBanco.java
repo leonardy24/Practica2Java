@@ -16,7 +16,7 @@ public class ConsolaBanco {
 
 		// commit
 		// commit2.2
-		//probando 2
+		//probando2
 		Scanner keyboard = new Scanner(System.in);
 
 		Gestor Gestor1 = null;
